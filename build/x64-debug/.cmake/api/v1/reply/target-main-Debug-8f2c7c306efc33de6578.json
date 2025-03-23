@@ -1,0 +1,944 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main.exe"
+		},
+		{
+			"path" : "main.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"use_CGAL_GMP_support",
+			"CGAL_setup_CGAL_dependencies",
+			"CGAL_setup_target_dependencies",
+			"include",
+			"find_package",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Users/danie/CGAL-6.0.1/include/CGAL/Installation/cmake/modules/CGAL_SetupGMP.cmake",
+			"C:/Users/danie/CGAL-6.0.1/include/CGAL/Installation/cmake/modules/CGAL_SetupCGALDependencies.cmake",
+			"C:/Users/danie/CGAL-6.0.1/include/CGAL/Installation/cmake/modules/CGAL_setup_target_dependencies.cmake",
+			"C:/Users/danie/CGAL-6.0.1/include/CGAL/Installation/lib/cmake/CGAL/CGALConfig.cmake",
+			"C:/Users/danie/CGAL-6.0.1/include/CGAL/CGALConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"file" : 4,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 192,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-D_SCL_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-D_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/fp:strict"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/fp:except-"
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_DYN_LINK=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/auxiliary/gmp/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/AABB_tree/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Advancing_front_surface_reconstruction/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Algebraic_foundations/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Algebraic_kernel_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Algebraic_kernel_for_circles/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Algebraic_kernel_for_spheres/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Alpha_shapes_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Alpha_shapes_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Alpha_wrap_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Apollonius_graph_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Arithmetic_kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Arrangement_on_surface_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/BGL/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Barycentric_coordinates_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Basic_viewer/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Boolean_set_operations_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Bounding_volumes/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Box_intersection_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/CGAL_Core/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/CGAL_ImageIO/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/CGAL_ipelets/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Cartesian_kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Circular_kernel_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Circular_kernel_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Circulator/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Classification/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Combinatorial_map/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Cone_spanners_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Convex_decomposition_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Convex_hull_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Convex_hull_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Convex_hull_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Distance_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Distance_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Envelope_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Envelope_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Filtered_kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Frechet_distance/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Generalized_map/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Generator/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/GraphicsView/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/HalfedgeDS/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Hash_map/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Heat_method_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Homogeneous_kernel/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Hyperbolic_triangulation_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Inscribed_areas/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Installation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Interpolation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Intersections_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Intersections_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Interval_skip_list/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Interval_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Jet_fitting_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Kernel_23/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Kernel_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Kinetic_space_partition/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Kinetic_surface_reconstruction/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/LEDA/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Linear_cell_complex/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Matrix_search/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Mesh_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Mesh_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Mesher_level/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Minkowski_sum_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Minkowski_sum_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Modifier/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Modular_arithmetic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Nef_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Nef_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Nef_S2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/NewKernel_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Number_types/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Optimal_bounding_box/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Optimal_transportation_reconstruction_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Optimisation_basic/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Orthtree/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Partition_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Periodic_2_triangulation_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Periodic_3_mesh_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Periodic_3_triangulation_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Periodic_4_hyperbolic_triangulation_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Point_set_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Point_set_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Point_set_processing_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Poisson_surface_reconstruction_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polygon/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polygon_mesh_processing/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polygon_repair/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polygonal_surface_reconstruction/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polyhedron/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polyline_simplification_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polynomial/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Polytope_distance_d/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Principal_component_analysis/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Principal_component_analysis_LGPL/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Profiling_tools/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Property_map/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/QP_solver/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Random_numbers/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Ridges_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/SMDS_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/STL_Extension/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Scale_space_reconstruction_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/SearchStructures/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Segment_Delaunay_graph_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Segment_Delaunay_graph_Linf_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Set_movable_separability_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Shape_detection/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Shape_regularization/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Skin_surface_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Snap_rounding_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Solver_interface/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Spatial_searching/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Spatial_sorting/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Straight_skeleton_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Straight_skeleton_extrusion_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Stream_lines_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Stream_support/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Subdivision_method_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_approximation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_deformation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_parameterization/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_segmentation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_shortest_path/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_simplification/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_skeletonization/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesh_topology/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_mesher/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Surface_sweep_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/TDS_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/TDS_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Testsuite/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Tetrahedral_remeshing/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Three/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Triangulation/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Triangulation_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Triangulation_3/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Triangulation_on_sphere_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Union_find/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Visibility_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Voronoi_diagram_2/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include/CGAL/Weights/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/boost/include/boost-1_88"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\gmp.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\mpfr.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
