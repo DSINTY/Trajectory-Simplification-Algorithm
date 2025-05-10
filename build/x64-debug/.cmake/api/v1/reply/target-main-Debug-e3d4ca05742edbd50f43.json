@@ -1,0 +1,234 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main.exe"
+		},
+		{
+			"path" : "main.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"create_single_source_cgal_program",
+			"target_link_libraries",
+			"use_CGAL_GMP_support",
+			"CGAL_setup_CGAL_dependencies",
+			"CGAL_setup_target_dependencies",
+			"include",
+			"find_package"
+		],
+		"files" : 
+		[
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_CreateSingleSourceCGALProgram.cmake",
+			"CMakeLists.txt",
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_SetupGMP.cmake",
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_SetupCGALDependencies.cmake",
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_setup_target_dependencies.cmake",
+			"C:/Users/danie/CGAL-6.0.1/lib/cmake/CGAL/CGALConfig.cmake",
+			"C:/Users/danie/CGAL-6.0.1/CGALConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 49,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 192,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 3,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 88,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 73,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-D_SCL_SECURE_NO_DEPRECATE"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-D_SCL_SECURE_NO_WARNINGS"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/fp:strict"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/fp:except-"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "/bigobj"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "BOOST_ALL_DYN_LINK=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CGAL_DATA_DIR=\"C:/Users/danie/CGAL-6.0.1/data\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/Users/danie/CGAL-6.0.1/auxiliary/gmp/include"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "C:/boost/include/boost-1_88"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					11
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\mpfr.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\gmp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

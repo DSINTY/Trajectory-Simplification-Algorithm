@@ -28,13 +28,7 @@
                 "strategy": "external"
             },
             "cacheVariables": {
-                "CMAKE_BUILD_TYPE": "Debug",
-                "CGAL_DIR": "C:\\Users\\danie\\CGAL-6.0.1\\include\\CGAL",
-                "Boost_DIR": "C:\\boost",
-                "GMP_LIBRARIES": "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\gmp.lib",
-                "GMP_INCLUDE_DIR": "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\include",
-                "MPFR_LIBRARIES": "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\lib\\mpfr.lib",
-                "MPFR_INCLUDE_DIR": "C:\\Users\\danie\\CGAL-6.0.1\\auxiliary\\gmp\\include"
+                "CMAKE_BUILD_TYPE": "Debug"
 
             }
         },
@@ -44,8 +38,7 @@
             "description": "Target Windows (64-bit) with the Visual Studio development environment. (RelWithDebInfo)",
             "inherits": "x64-debug",
             "cacheVariables": {
-                "CMAKE_BUILD_TYPE": "Release",
-                "CGAL_DIR": "C:\\Users\\danie\\CGAL-6.0.1\\include\\CGAL"
+                "CMAKE_BUILD_TYPE": "Release"
             }
         },
         {

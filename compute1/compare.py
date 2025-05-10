@@ -1,15 +1,16 @@
 import Fred as fred
 
-FILE_PATH  = "traj-sim-data/input/fbqs/"
+FILE_PATH  = "traj-sim-data/input/sim/"
 
 OUTPUT_PATH = "traj-sim-data/output/"
 NUM_FILES = 100
-ERROR_BOUNDS = (0.001,0.01,0.1,1,2,5,10,20,40,60,80,100,1000,10000)
+ERROR_BOUNDS = (1,2,5,10,20,40,60,80,100,1000,10000)
 
-SIM_ALGS = ('sim','fbqs')
+SIM_ALGS = ('sim','fbqs','OPW')
 
 
 #with open("results.csv", "w") as output_f:
+fred.config.continuous_frechet_error = 0.00001
 
 
 outputline="ID,original_length"
@@ -39,20 +40,28 @@ for i in range(1,NUM_FILES+1):
                 points_sim = [(None,None)]
                 
                 for seg in segs:
-                    start_x, start_y, end_x, end_y = map(float, seg.split())
-                    if (start_x, start_y) != points_sim[-1]:
-                        points_sim.append((start_x, start_y))
-                    if (end_x, end_y) != points_sim[-1]:
-                        points_sim.append((end_x, end_y))
+                    if len(seg.split())==4:
+                            
+                        start_x, start_y, end_x, end_y = map(float, seg.split())
+                        if (start_x, start_y) != points_sim[-1]:
+                            points_sim.append((start_x, start_y))
+                        if (end_x, end_y) != points_sim[-1]:
+                            points_sim.append((end_x, end_y))
+                    elif len(seg.split())==2:
+                        start_x, start_y = map(float, seg.split())
+                        if (start_x, start_y) != points_sim[-1]:
+                            points_sim.append((start_x, start_y))
+                    else:
+                        raise ValueError("Invalid segment format: {}".format(seg))
+                
                 points_sim=points_sim[1:]
                 comp_ratio = -1
                 dist = -1
                 # print(distance(Point(points[0]),Point(points_sim[0])))
-                # if (len(points_sim) > 1):
                 sim_traj = fred.Curve(points_sim)
-                # print(sim_line)
-                # print(line)
-                
+                    # print(sim_line)
+                    # print(line)
+                    
                 comp_ratio = sim_traj.complexity/traj.complexity
                 if sim_traj.complexity>1:
                     dist= fred.continuous_frechet(traj,sim_traj).value

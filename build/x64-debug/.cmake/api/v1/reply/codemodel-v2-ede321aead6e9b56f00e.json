@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SimTraj",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_CGAL_TARGETS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_CGAL_TARGETS-Debug-632cc041f1fb37b1c4a4.json",
+					"name" : "ALL_CGAL_TARGETS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cgal_check_build_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cgal_check_build_system-Debug-08456016beade1092640.json",
+					"name" : "cgal_check_build_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-e3d4ca05742edbd50f43.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "main2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main2-Debug-242dafb82dc62a5d38b5.json",
+					"name" : "main2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "toy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-toy-Debug-6b76fb995784d5e9b5ed.json",
+					"name" : "toy",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug",
+		"source" : "C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

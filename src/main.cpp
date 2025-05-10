@@ -185,7 +185,7 @@ int main(int argc,char *argv[]){
     double average_second = 0.0;
 
 	vector<double> error_bounds;
-	if (error_bound_input == -1) error_bounds = { 0.001, 0.01, 0.1, 1.0, 2.0, 5.0, 10.0, 20.0, 40.0, 60.0, 80.0, 100.0, 1000.0,10000.0 };
+	if (error_bound_input == -1) error_bounds = {  1.0, 2.0, 5.0, 10.0, 20.0, 40.0, 60.0, 80.0, 100.0, 1000.0,10000.0 };
 	else error_bounds.push_back(error_bound_input);
     for (double error_bound : error_bounds) {
 
@@ -221,6 +221,7 @@ int main(int argc,char *argv[]){
             Trajectory<Point>* traj = new Trajectory<Point>;
 
             std::string file_name = "../../dataset/taxi_log_2008_by_id/" + std::to_string(i) + ".txt";
+			cout << "error_bound: " << error_bound << "m" << endl;
             std::cout << file_name << std::endl;
             cout << "reading file" << endl;
             ifstream file(file_name);
@@ -287,13 +288,13 @@ int main(int argc,char *argv[]){
             double end_time = clock();
             cout << "finish compress" << endl;
 
-            /*average_second += (double)(end_time - start_time) / CLOCKS_PER_SEC;
+            //average_second += (double)(end_time - start_time) / CLOCKS_PER_SEC;
 
-            temp_rate = (double) (traj->size() - result->size() - 1)/ traj->size();
+            temp_rate = (double) (traj->size() - result->size() )/ traj->size();
             averge_rate += temp_rate;
 
-            std::cout << "Compressed trajectory size:" << result->size() + 1 << std::endl;
-            std::cout << "Compression rate:" << temp_rate << std::endl;*/
+            std::cout << "Compressed trajectory size:" << result->size() << std::endl;
+            std::cout << "Compression rate:" << temp_rate << std::endl;
 
 			// if folder not exist, create it
 			string folder = "../../output/" + string(argv[3]) + '/';
@@ -326,16 +327,16 @@ int main(int argc,char *argv[]){
 
         }
 
-        /*double end_time = clock();
+        //double end_time = clock();
 
         averge_rate /= size;
-        freopen("result.txt", "w", stdout);
+        //freopen("result.txt", "w", stdout);
 
         std::cout << "Error Bound: " << error_bound << "m" << std::endl;
         std::cout << "Average Compression Ratio: " << 100.0 - averge_rate * 100 << "\%" << std::endl;
-        std::cout << "Running time " << (double)(end_time - start_time) / CLOCKS_PER_SEC << "s" << std::endl;
-        std::cout << "Average Second:" << average_second / (double)size << std::endl;
-        fclose(stdout);*/
+        //std::cout << "Running time " << (double)(end_time - start_time) / CLOCKS_PER_SEC << "s" << std::endl;
+        //std::cout << "Average Second:" << average_second / (double)size << std::endl;
+        //fclose(stdout);
 
     }
     return 0;
