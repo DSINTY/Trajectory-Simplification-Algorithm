@@ -1,0 +1,72 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"cgal_add_compilation_test",
+			"cgal_add_test",
+			"create_single_source_cgal_program",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_add_test.cmake",
+			"C:/Users/danie/CGAL-6.0.1/cmake/modules/CGAL_CreateSingleSourceCGALProgram.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 278,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 112,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "cgal_check_build_system::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_CGAL_TARGETS::@6890427a1f51a3e7e1df",
+	"name" : "ALL_CGAL_TARGETS",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

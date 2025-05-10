@@ -1,0 +1,7 @@
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/main.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/ALL_CGAL_TARGETS.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/cgal_check_build_system.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/main2.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/toy.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/danie/OneDrive - HKUST Connect/UROP - trajectory system/Trajectory-Simplification-Algorithm/build/x64-debug/CMakeFiles/rebuild_cache.dir

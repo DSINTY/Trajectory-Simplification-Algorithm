@@ -4,3 +4,4 @@ dataset/*
 src/*
 !src/*.cpp
 !src/makefile
+.vs
